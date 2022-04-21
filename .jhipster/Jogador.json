@@ -1,0 +1,50 @@
+{
+  "applications": "*",
+  "changelogDate": "20220421115528",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "jogador",
+  "fields": [
+    {
+      "fieldName": "nome",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "foto",
+      "fieldType": "byte[]",
+      "fieldTypeBlobContent": "image"
+    },
+    {
+      "fieldName": "idade",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "posicao",
+      "fieldType": "Posicao",
+      "fieldValues": "Goleiro,Zagueiro,LateralEsquerdo,Lateral,Direito,Volante,AlaEsquerdo,AlaDireito,MeioCampoEsquerdo,MeioCampoDireito,MeiaCentral,MeiaLateral,MeiaAtacanteEsquerdo,MeiaAtacanteDireito,Ponta,AtacanteEsquerdo,AtacanteDireito"
+    },
+    {
+      "fieldName": "camisa",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "numerodeGols",
+      "fieldType": "Integer"
+    }
+  ],
+  "fluentMethods": true,
+  "javadoc": "The Employee entity.",
+  "jpaMetamodelFiltering": false,
+  "name": "Jogador",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "time",
+      "otherEntityRelationshipName": "jogador",
+      "relationshipName": "time",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "service": "no"
+}

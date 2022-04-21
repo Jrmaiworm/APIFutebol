@@ -1,0 +1,74 @@
+{
+  "applications": "*",
+  "changelogDate": "20220421115527",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "time",
+  "fields": [
+    {
+      "fieldName": "emblema",
+      "fieldType": "byte[]",
+      "fieldTypeBlobContent": "image"
+    },
+    {
+      "fieldName": "uniforme",
+      "fieldType": "byte[]",
+      "fieldTypeBlobContent": "image"
+    },
+    {
+      "fieldName": "nomeClube",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "titulosBrasileiro",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "titulosEstadual",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "titulosLibertadores",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "titulosMundial",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "maiorArtilheiro",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "estadoOrigem",
+      "fieldType": "EstadoOrigem",
+      "fieldValues": "RO,AC,AM,RR,PA,AP,TO,MA,PI,CE,RN,PB,PE,AL,SE,BA,MG,ES,RJ,SP,PR,SC,RS,MS,MT,GO,DF"
+    },
+    {
+      "fieldName": "treinador",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "presidente",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "anoFundacao",
+      "fieldType": "LocalDate"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Time",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "jogador",
+      "otherEntityRelationshipName": "time",
+      "relationshipName": "jogador",
+      "relationshipType": "one-to-many"
+    }
+  ],
+  "service": "no"
+}
