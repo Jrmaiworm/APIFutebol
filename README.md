@@ -1,5 +1,7 @@
 # APIFutebol
 
+[![Join the chat at https://gitter.im/JrmaiwormCorp/ApiFutebol](https://badges.gitter.im/JrmaiwormCorp/ApiFutebol.svg)](https://gitter.im/JrmaiwormCorp/ApiFutebol?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 This application was generated using JHipster 7.8.1, you can find documentation and help at [https://www.jhipster.tech](https://www.jhipster.tech).
 
 ## Project Structure
